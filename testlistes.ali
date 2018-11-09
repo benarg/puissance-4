@@ -1,0 +1,81 @@
+V "GNAT Lib v4.9"
+M P W=b
+P ZX
+
+RN
+RV NO_ALLOCATORS
+RV NO_IO
+RV NO_IMPLICIT_CONDITIONALS
+RV NO_LOCAL_ALLOCATORS
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DEFAULT_INITIALIZATION
+RV SPARK_05
+
+U testlistes%b		testlistes.adb		b597e83a NE OO SU
+W ada%s			ada.ads			ada.ali
+W ada.tags%s		a-tags.adb		a-tags.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+Z ada.unchecked_deallocation%s
+W liste_generique%s	liste_generique.adb	liste_generique.ali
+W system%s		system.ads		system.ali
+W system.exception_table%s  s-exctab.adb	s-exctab.ali
+W system.img_int%s	s-imgint.adb		s-imgint.ali
+W system.standard_library%s  s-stalib.adb	s-stalib.ali
+
+D ada.ads		20070406091342 3ffc8e18
+D a-except.ads		20140129161953 f86a4103
+D a-finali.ads		20111121113555 52ecdc1b
+D a-ioexce.ads		20140225151544 e4a01f64
+D a-stream.ads		20140122164720 1a984740
+D a-tags.ads		20111212115430 6c0509d0
+D a-textio.ads		20140129155348 386df5d4
+D a-unccon.ads		20070406091342 f9eb8f06
+D a-uncdea.ads		20070406091342 f15a5ed1
+D interfac.ads		20140225151838 69adb1b9
+D i-cstrea.ads		20130412125801 8128536b
+D liste_generique.ads	20161206155603 c6c84c0d
+D liste_generique.adb	20161206190850 c84595a7
+D system.ads		20160213141829 90249111
+D s-crtl.ads		20140225151544 840e6817
+D s-exctab.ads		20140225151139 54135002
+D s-ficobl.ads		20120709130952 55a71d43
+D s-finmas.ads		20140225151139 814daec4
+D s-finroo.ads		20120426095924 4ff27390
+D s-imgint.ads		20090409150019 02dbe0c2
+D s-parame.ads		20140225151139 ab8cb46a
+D s-pooglo.ads		20110804083314 542f33d0
+D s-soflin.ads		20140225151139 aa763b52
+D s-stache.ads		20140225151139 a37c21ec
+D s-stalib.ads		20140225151139 a891183f
+D s-stoele.ads		20140225151139 2dc34a04
+D s-stoele.adb		20140225151139 ed88f8fb
+D s-stopoo.ads		20131010103753 b16154c2
+D s-traent.ads		20140225151139 b5116092
+D s-unstyp.ads		20140225151139 510692af
+D s-wchcon.ads		20140225151139 1b7d22d2
+D testlistes.adb	20161206190044 4b3251e3
+X 1 ada.ads
+16K9*Ada 19e8 32|2r6 2r23
+X 7 a-textio.ads
+49K13*Text_IO 471e16 32|2w10 2r27
+263U14*Put_Line 32|8s5
+X 12 liste_generique.ads
+15k9*Liste_Generique 66e20 32|1w6 11r30
+16P10 Liste 32|13r19[11]
+17P10 Iterateur 32|14r19[11]
+22U15 Affiche_Liste 32|28s15[11]
+25U15 Insere_Tete 32|19s17[11]
+31V14 Creer_Liste{16P10[32|11]} 32|16s20[11]
+34V14 Creer_Iterateur{17P10[32|11]} 32|21s20[11]
+40U15 Suivant 32|25s17[11]
+43V14 Element_Courant{integer} 32|24s29[11]
+46V14 A_Suivant{boolean} 32|23s21[11]
+X 32 testlistes.adb
+4U11*Testlistes 4b11 29l5 29t15
+6U13 Affiche_Int 6b13 6>25 9l7 9t18 11r55 24s5
+6i25 E{integer} 8r28
+11K11 Listes_Test[12|15] 13r7 14r7 16r8 19r5 21r8 23r9 24r17 25r5 28r3
+13p3 L{12|16P10[11]} 16m3 19m31 19r31 21r36 28r29
+14p3 I{12|17P10[11]} 21m3 23r31 24r45 25m25 25r25
+18i7 I{integer} 19r29
+
